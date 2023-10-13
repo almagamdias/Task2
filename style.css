@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	width: 80%;
+	margin: auto;
+}
+header {
+	padding: 30px 0;
+}
+header h2 {
+	margin: 0 5px;
+}
+a {
+	color: #9F0013;
+	text-decoration: none;
+}
+h1 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+}
+h2 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 2px 0;
+}
+h3 {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+h4 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+}
+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+}
+button {
+	text-align: center;
+	width: 100px;
+	color: white;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+button, input {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 13px 25px 0 0;
+	padding: 10px 0;
+}
+form {
+	width: 60%;
+}
+input {
+	padding: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 100%;
+}
+main {
+	width: 100%;
+}
+#red {
+	background-color: #9F0013;
+}
+#grey {
+	background-color: #5C5C5C;
+}
+.center {
+	align-items: center;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#ch {
+	color: #9F0013;
+}
+.card {
+	width: 50%;
+	padding: 35px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.hero, .adv {
+	height: 100%;
+}
+.adv img {
+	position: absolute;
+	top: 18%;
+	left: 80%;
+}
+.desc {
+	max-width: 60%;
+}
+.black, #character {
+	background-color: black;
+	color: white;
+}
+.charList {
+	margin: 50px 0 15px 0;
+}
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.chars {
+	width: 60%;
+}
+#character {
+	width: 30%;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	margin-bottom: 20px;
+}
+#character:hover {
+	transform: translate(0, -5px);
+}
+#character h3 {
+	padding: 15px;
+	height: 70px;
+}
+#character img, .loadMore {
+	width: 100%;
+}
+#charDesc {
+	display: none;
+}
+.x1 {
+	margin: 25px 0;
+}
+#charDesc img {
+	width: 150px;
+	margin-right: 20px;
+}
+.x30 {
+	width: 37%;
+	display: flex;
+	flex-direction: column;
+}
+#desc, .search {
+	width: 88%;
+	padding: 25px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	margin-bottom: 25px;
+}
+.search button {
+	width: 20%;
+}
+.visit {
+	display: none;
+}
+#desc {
+	max-height: 250px;
+}
+#select div {
+	margin: 0 auto;
+}
+.comics p {
+	margin: 15px 0;
+	padding: 4px 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mainComics {
+	display: none;
+}
+.week {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 45px;
+}
+.week .row {
+	width: 40%;
+}
+.x2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#comicsCard {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	width: 250px;
+}
+h5 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	margin: 0 15px 0 5px;
+}
+.x60 {
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 5px;
+}
+.loadMore {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+}
+.loadMore button {
+	width: 200px;
+	padding: 10px 50px;
+}
+.comicsView, .wiki {
+	display: none;
+	margin: 40px 0;
+}
+.wiki div {
+	margin-left: 40px;
+}
+.mainComics p, .require {
+	margin-top: 20px;
+}
+.mainComics .column {
+	width: 60%;
+	height: 75%;
+}

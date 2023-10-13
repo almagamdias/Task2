@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marvel</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+	<script src="app.js"></script>
+</head>
+<body>
+	<header class="row">
+		<div>
+			<h1><a href="#" onclick = "location.reload()">Marvel</a> informational portal</h1>
+		</div>
+		<div class="row">
+			<h2 id="ch">Characters</h2>
+			<h2>/</h2>
+			<h2 id="c">Comics</h2>
+		</div>
+	</header>
+	<main>
+		<div class="mainChar">
+			<div class="feature row">
+				<div class="card">
+					<div class="hero row">
+						<img src="SVG/Thor.png">
+						<div class="desc column">
+							<h3>THOR</h3>
+							<p>As the Norse God of thunder and lightning, Thor wields one of the greatest weapons ever made, the enchanted hammer Mjolnir. While others have described Thor as an over-muscled, oafish imbecile, he's quite smart and compassionate...</p>
+							<div>
+								<button id="red">HOMEPAGE</button>
+								<button id="grey">WIKI</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card black">
+					<div class="adv column">
+						<div>
+							<h2>Random character for today!</h2>
+							<h2>Do you want to get to know him better?</h2>
+						</div>
+						<div>
+							<h2>Or choose another one</h2>
+							<button id="red">TRY IT</button>
+						</div>
+						<img src="SVG/Molot.png">
+					</div>
+				</div>
+			</div>
+			<div class="charList row">
+				<div class="chars wrap">
+					<div id="character">
+						<img src="Chars/abyss.jpg">
+						<h3>ABBYS</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/loki.png">
+						<h3>LOKI</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/adam.png">
+						<h3>ADAM WARLOCK</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/boom.png">
+						<h3>BOOM BOOM</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/calypso.png">
+						<h3>CALYPSO</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/wing.png">
+						<h3>COLLEEN WING</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/daimon.png">
+						<h3>DAIMON HELLSTROM</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/damage.png">
+						<h3>DAMAGE CONTROL</h3>
+					</div>
+					<div id="character">
+						<img src="Chars/hulk.png">
+						<h3>HULK</h3>
+					</div>
+				</div>
+				<div class="x30">
+					<div id="desc">
+						<div id="select" class="column">
+							<div>
+								<h4>Please select a character to see information</h4>
+							</div>
+						</div>
+						<div id="charDesc" class="column">
+							<div class="row">
+								<img src="Chars/loki.png">
+								<div class="desc column">
+									<h3>LOKI</h3>	
+									<div>
+										<button id="red">HOMEPAGE</button>
+										<button id="grey">WIKI</button>
+									</div>
+								</div>
+							</div>
+							<div class="x1">
+								<p>In Norse mythology, Loki is a god or jötunn (or both). Loki is the son of Fárbauti and Laufey, and the brother of Helblindi and Býleistr. By the jötunn Angrboða, Loki is the father of Hel, the wolf Fenrir, and the world serpent Jörmungandr. By Sigyn, Loki is the father of Nari and/or Narfi and with the stallion Svaðilfari as the father, Loki gave birth—in the form of a mare—to the eight-legged horse Sleipnir. In addition, Loki is referred to as the father of Váli in the Prose Edda.</p>
+							</div>
+							<div>
+								<h4>Comics:</h4>
+								<div class="comics">
+									<p>All-Winners Squad: Band of Heroes (2011) #3</p>
+									<p>Alpha Flight (1983) #50</p>
+									<p>Amazing Spider-Man (1999) #503</p>
+									<p>Amazing Spider-Man (1999) #504</p>
+									<p>AMAZING SPIDER-MAN VOL. 7: BOOK OF EZEKIEL TPB (Trade Paperback)</p>
+									<p>Amazing-Spider-Man: Worldwide Vol. 8 (Trade Paperback)</p>
+									<p>Asgardians Of The Galaxy Vol. 2: War Of The Realms (Trade Paperback)</p>
+									<p>Vengeance (2011) #4</p>
+									<p>Avengers (1963) #1</p>
+									<p>Avengers (1996) #1</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="search column">
+						<h4>Or find a character by name:</h4>
+						<div class="row">
+							<form>
+								<input id="search" type="text" name="char" placeholder="Enter name">
+							</form>
+							<button id="red" class="find">FIND</button>
+						</div>
+						<div class="row center">
+							<h4 class="require"></h4>
+							<button id="grey" class="visit">TO PAGE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainComics">
+			<div class="black week">
+				<div class="row">
+					<img src="SVG/Avengers.png">
+					<div class="x2">
+						<h2>New comics every week!</h2>
+						<h2>Stay tuned!</h2>
+					</div>
+				</div>
+				<img src="SVG/Avengers logo.png">
+			</div>
+			<div class="listCom wrap">
+				<div id="comicsCard">
+					<img src="SVG/UW.png">
+					<h5>ULTIMATE X-MEN VOL. 5: ULTIMATE WAR TPB</h5>
+					<h5 class="x60">9.99$</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/x-men.png">
+					<h5>X-Men: Days of Future Past</h5>
+					<h5 class="x60">NOT AVAILABLE</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/UW.png">
+					<h5>ULTIMATE X-MEN VOL. 5: ULTIMATE WAR TPB</h5>
+					<h5 class="x60">9.99$</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/x-men.png">
+					<h5>X-Men: Days of Future Past</h5>
+					<h5 class="x60">NOT AVAILABLE</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/UW.png">
+					<h5>ULTIMATE X-MEN VOL. 5: ULTIMATE WAR TPB</h5>
+					<h5 class="x60">9.99$</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/x-men.png">
+					<h5>X-Men: Days of Future Past</h5>
+					<h5 class="x60">NOT AVAILABLE</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/UW.png">
+					<h5>ULTIMATE X-MEN VOL. 5: ULTIMATE WAR TPB</h5>
+					<h5 class="x60">9.99$</h5>
+				</div>
+				<div id="comicsCard">
+					<img src="SVG/x-men.png">
+					<h5>X-Men: Days of Future Past</h5>
+					<h5 class="x60">NOT AVAILABLE</h5>
+				</div>
+			</div>
+			<div class="comicsView row">
+				<img src="SVG/x-men.png">
+				<div class="column">
+					<h3>X-Men: Days of Future Past</h3>
+					<p>Re-live the legendary first journey into the dystopian future of 2013 - where Sentinels stalk the Earth, and the X-Men are humanity's only hope...until they die! Also featuring the first appearance of Alpha Flight, the return of the Wendigo, the history of the X-Men from Cyclops himself...and a demon for Christmas!?</p>
+					<p>144 pages</p>
+					<p>Language: en-us</p>
+					<p></p>
+					<h2>9.99$</h2>
+				</div>
+				<div class="back">
+					<h4>Back to all</h4>
+				</div>
+			</div>
+			<div class="wiki">
+				<img src="Chars/Loki.png">
+				<div class="column">
+					<h3>LOKI</h3>
+					<p>In Norse mythology, Loki is a god or jötunn (or both). Loki is the son of Fárbauti and Laufey, and the brother of Helblindi and Býleistr. By the jötunn Angrboða, Loki is the father of Hel, the wolf Fenrir, and the world serpent Jörmungandr. By Sigyn, Loki is the father of Nari and/or Narfi and with the stallion Svaðilfari as the father, Loki gave birth—in the form of a mare—to the eight-legged horse Sleipnir. In addition, Loki is referred to as the father of Váli in the Prose Edda.</p>
+				</div>
+			</div>
+		</div>
+		<div class="loadMore">
+			<button id="red">LOAD MORE</button>
+		</div>
+	</main>
+</body>
+</html>
